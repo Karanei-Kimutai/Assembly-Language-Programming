@@ -1,2 +1,11 @@
 *.o
+# Ignore generated executables in the example folders, but keep sources and READMEs tracked.
+/01_basics/*
+!/01_basics/*.asm
+!/01_basics/README.md
+/02_data_movement/*/*
+!/02_data_movement/*/*.asm
+/03_arithmetic/*/*
+!/03_arithmetic/*/*.asm
+!/03_arithmetic/*/README.md
 *.out
