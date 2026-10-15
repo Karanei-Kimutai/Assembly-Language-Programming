@@ -8,4 +8,8 @@
 /03_arithmetic/*/*
 !/03_arithmetic/*/*.asm
 !/03_arithmetic/*/README.md
+/04_logic_and_conditions/*
+!/04_logic_and_conditions/*.asm
+/06_loop/*
+!/06_loop/*.asm
 *.out
