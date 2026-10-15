@@ -9,6 +9,8 @@ _start:
     mov rcx, 5                  ; Repeat 5 times
 
 repeat:
+    push rcx                    ; Save the loop counter to the stack
+
     ; Print the message
     mov rax, 1              
     mov rdi, 1                  
@@ -16,11 +18,11 @@ repeat:
     mov rdx, length
     syscall
 
+    pop rcx                     ; Restore the loop counter from the stack
+
     loop repeat    
 
-    
+    ; Exit
     mov rax, 60          
     xor rdi, rdi
     syscall
-
-    
