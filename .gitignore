@@ -18,4 +18,6 @@
 !/08_macros/*.asm
 /09_files/*
 !/09_files/*.asm
+/11_input/*
+!/11_input/*.asm
 *.out
