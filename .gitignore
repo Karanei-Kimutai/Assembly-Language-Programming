@@ -12,4 +12,8 @@
 !/04_logic_and_conditions/*.asm
 /06_loop/*
 !/06_loop/*.asm
+/07_stack/*
+!/07_stack/*.asm
+/08_macros/*
+!/08_macros/*.asm
 *.out
