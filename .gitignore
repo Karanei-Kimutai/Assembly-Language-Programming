@@ -16,4 +16,6 @@
 !/07_stack/*.asm
 /08_macros/*
 !/08_macros/*.asm
+/09_files/*
+!/09_files/*.asm
 *.out
