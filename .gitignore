@@ -14,6 +14,7 @@
 !/06_loop/*.asm
 /07_stack/*
 !/07_stack/*.asm
+!/07_stack/README_*.md
 /08_macros/*
 !/08_macros/*.asm
 /09_files/*
